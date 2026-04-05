@@ -3,6 +3,8 @@ import joblib
 import pandas as pd
 import shap
 import matplotlib.pyplot as plt
+import warnings
+warnings.filterwarnings("ignore")
 
 # ---------------- PAGE CONFIG ---------------- #
 st.set_page_config(page_title="Churn Intelligence System", layout="centered")
